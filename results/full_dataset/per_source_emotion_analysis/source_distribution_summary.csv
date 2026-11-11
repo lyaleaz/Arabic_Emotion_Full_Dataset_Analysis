@@ -1,0 +1,17 @@
+﻿source_dataset,records,percentage_of_full_dataset,number_of_emotions_present,dominant_emotion,dominant_emotion_count,dominant_emotion_percentage_within_source,emotion_distribution_entropy,normalized_emotion_entropy_0_to_1
+EmoHopeSpeech (2025),17083,41.461580,8,disgust,6785,39.717848,1.699005,0.817049
+AETD (2017),6233,15.127906,5,anger,1444,23.167014,1.604101,0.771410
+Arabic-Poem-Emotion (2023),6006,14.576962,2,sadness,4063,67.649018,0.629487,0.302719
+ExaAEC (2021),5604,13.601281,7,sadness,1909,34.064954,1.700523,0.817779
+ArPanEmo (2023) - train,993,2.410077,7,joy,188,18.932528,1.926320,0.926364
+BRIGHTER (2025) - ary - train,976,2.368817,6,anger,290,29.713115,1.546200,0.743565
+BRIGHTER (2025) - ary - test,976,2.368817,6,anger,290,29.713115,1.546200,0.743565
+Iraqi E-Learning Emotion Dataset,801,1.944080,4,joy,220,27.465668,1.384499,0.665803
+Arabic Restaurant Reviews (Toqa Mohamed),798,1.936799,5,joy,397,49.749373,1.023168,0.492040
+BRIGHTER (2025) - arq - test,622,1.509635,6,sadness,200,32.154341,1.590633,0.764933
+BRIGHTER (2025) - ary - dev,324,0.786370,6,anger,96,29.629630,1.550464,0.745616
+BRIGHTER (2025) - arq - train,294,0.713558,6,sadness,117,39.795918,1.498497,0.720625
+SenWave (2020),281,0.682006,1,sadness,281,100.000000,-0.000000,-0.000000
+ArPanEmo (2023) - test,131,0.317946,7,fear,36,27.480916,1.695099,0.815170
+BRIGHTER (2025) - arq - dev,64,0.155332,5,joy,16,25.000000,1.561397,0.750873
+Twifil (2020),16,0.038833,5,anger,6,37.500000,1.342126,0.645426

@@ -1,0 +1,3 @@
+# Large embedding files
+results/full_dataset/AraBERT_v2_embeddings.npy
+results/full_dataset/MARBERT_embeddings.npy

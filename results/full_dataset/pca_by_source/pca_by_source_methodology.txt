@@ -1,0 +1,10 @@
+PCA BY SOURCE DATASET — FULL DATASET
+All 41,202 coordinates per model are plotted without sampling.
+Coordinates are loaded from earlier PCA files and are NOT recomputed.
+Source colors are identical for the two models.
+PCA axes are independently fitted for each model; do not directly
+compare coordinates or point distances between model panels.
+Overplotting can obscure points, particularly in large source groups.
+The visualization alone does not prove whether source or emotion
+explains more variance; further quantitative analysis is needed.
+No original input files were modified.

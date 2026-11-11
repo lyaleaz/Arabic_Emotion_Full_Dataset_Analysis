@@ -1,0 +1,99 @@
+FULL DATASET EMOTION SEPARABILITY ANALYSIS
+======================================================================
+
+Records: 41,202
+Dimensions: 768
+Emotion classes: anger, anticipation, disgust, fear, joy, sadness, surprise, trust
+Silhouette sample size: 3,200
+Silhouette samples per class: up to 400
+Random seed: 42
+
+OVERALL MODEL COMPARISON
+     model  records  dimensions  silhouette_cosine_stratified_sample  mean_intra_class_pairwise_cosine  mean_inter_class_pairwise_cosine  intra_minus_inter_gap  inter_over_intra_ratio  mean_individual_vector_norm  minimum_individual_vector_norm  maximum_individual_vector_norm  all_values_finite  all_vectors_l2_normalized
+AraBERT_v2    41202         768                            -0.028263                          0.651780                          0.613660               0.038119                0.941515                          1.0                             1.0                             1.0               True                       True
+   MARBERT    41202         768                            -0.099614                          0.989513                          0.988465               0.001048                0.998941                          1.0                             1.0                             1.0               True                       True
+
+PER-EMOTION RESULTS
+     model      emotion  records  mean_intra_class_pairwise_cosine  mean_inter_class_cosine_to_other_classes  centroid_norm_before_unit_normalization
+AraBERT_v2        anger     4546                          0.631849                                  0.613430                                 0.794940
+AraBERT_v2 anticipation     1391                          0.618402                                  0.605079                                 0.786560
+AraBERT_v2      disgust     8164                          0.676277                                  0.628234                                 0.822385
+AraBERT_v2         fear     3494                          0.618495                                  0.591342                                 0.786514
+AraBERT_v2          joy     7665                          0.610169                                  0.601101                                 0.781166
+AraBERT_v2      sadness    11564                          0.670063                                  0.614231                                 0.818591
+AraBERT_v2     surprise     3926                          0.603157                                  0.595177                                 0.776697
+AraBERT_v2        trust      452                          0.645834                                  0.611898                                 0.804125
+   MARBERT        anger     4546                          0.990365                                  0.988787                                 0.995172
+   MARBERT anticipation     1391                          0.985362                                  0.986573                                 0.992659
+   MARBERT      disgust     8164                          0.992567                                  0.989387                                 0.996277
+   MARBERT         fear     3494                          0.987208                                  0.986856                                 0.993585
+   MARBERT          joy     7665                          0.987321                                  0.987438                                 0.993641
+   MARBERT      sadness    11564                          0.989134                                  0.987703                                 0.994553
+   MARBERT     surprise     3926                          0.989185                                  0.988166                                 0.994579
+   MARBERT        trust      452                          0.987838                                  0.987125                                 0.993914
+
+EMOTION CENTROID PAIR SIMILARITIES
+     model    emotion_a    emotion_b  centroid_cosine_similarity
+AraBERT_v2        anger anticipation                    0.970456
+AraBERT_v2        anger      disgust                    0.989163
+AraBERT_v2        anger         fear                    0.951640
+AraBERT_v2        anger          joy                    0.970093
+AraBERT_v2        anger      sadness                    0.947009
+AraBERT_v2        anger     surprise                    0.983731
+AraBERT_v2        anger        trust                    0.969160
+AraBERT_v2 anticipation      disgust                    0.967721
+AraBERT_v2 anticipation         fear                    0.943844
+AraBERT_v2 anticipation          joy                    0.968613
+AraBERT_v2 anticipation      sadness                    0.960035
+AraBERT_v2 anticipation     surprise                    0.955399
+AraBERT_v2 anticipation        trust                    0.983288
+AraBERT_v2      disgust         fear                    0.945122
+AraBERT_v2      disgust          joy                    0.963545
+AraBERT_v2      disgust      sadness                    0.943804
+AraBERT_v2      disgust     surprise                    0.969376
+AraBERT_v2      disgust        trust                    0.967992
+AraBERT_v2         fear          joy                    0.937499
+AraBERT_v2         fear      sadness                    0.919523
+AraBERT_v2         fear     surprise                    0.972497
+AraBERT_v2         fear        trust                    0.928253
+AraBERT_v2          joy      sadness                    0.987049
+AraBERT_v2          joy     surprise                    0.956827
+AraBERT_v2          joy        trust                    0.960668
+AraBERT_v2      sadness     surprise                    0.925505
+AraBERT_v2      sadness        trust                    0.939212
+AraBERT_v2     surprise        trust                    0.949390
+   MARBERT        anger anticipation                    0.999622
+   MARBERT        anger      disgust                    0.999622
+   MARBERT        anger         fear                    0.999047
+   MARBERT        anger          joy                    0.999641
+   MARBERT        anger      sadness                    0.999232
+   MARBERT        anger     surprise                    0.999724
+   MARBERT        anger        trust                    0.998968
+   MARBERT anticipation      disgust                    0.999387
+   MARBERT anticipation         fear                    0.999046
+   MARBERT anticipation          joy                    0.999512
+   MARBERT anticipation      sadness                    0.999229
+   MARBERT anticipation     surprise                    0.999495
+   MARBERT anticipation        trust                    0.999044
+   MARBERT      disgust         fear                    0.998206
+   MARBERT      disgust          joy                    0.999359
+   MARBERT      disgust      sadness                    0.999192
+   MARBERT      disgust     surprise                    0.999060
+   MARBERT      disgust        trust                    0.998621
+   MARBERT         fear          joy                    0.998895
+   MARBERT         fear      sadness                    0.997928
+   MARBERT         fear     surprise                    0.999344
+   MARBERT         fear        trust                    0.999286
+   MARBERT          joy      sadness                    0.999630
+   MARBERT          joy     surprise                    0.999526
+   MARBERT          joy        trust                    0.998972
+   MARBERT      sadness     surprise                    0.998904
+   MARBERT      sadness        trust                    0.997803
+   MARBERT     surprise        trust                    0.998982
+
+METHODOLOGICAL NOTES
+- Intra-class and inter-class pairwise cosine means are exact over the full dataset and are calculated from class vector sums.
+- Silhouette uses cosine distance on the same fixed stratified sample for both models; it is not computed on all 41,202 rows.
+- Centroid cosine similarities compare normalized emotion centroid directions.
+- These are label-conditioned geometric diagnostics, not classification accuracy or proof of causal model superiority.
+- The overall intra/inter means are pair-weighted; per-emotion values are also provided to expose class imbalance.

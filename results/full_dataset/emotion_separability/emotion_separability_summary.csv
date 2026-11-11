@@ -1,0 +1,3 @@
+﻿model,records,dimensions,silhouette_cosine_stratified_sample,mean_intra_class_pairwise_cosine,mean_inter_class_pairwise_cosine,intra_minus_inter_gap,inter_over_intra_ratio,mean_individual_vector_norm,minimum_individual_vector_norm,maximum_individual_vector_norm,all_values_finite,all_vectors_l2_normalized
+AraBERT_v2,41202,768,-0.02826274000108242,0.6517795007281327,0.6136601449623741,0.038119355765758645,0.9415149514165853,1.0000000003415606,0.9999998381403383,1.000000153723319,True,True
+MARBERT,41202,768,-0.09961408376693726,0.9895133078122974,0.9884653324133621,0.001047975398935308,0.9989409183376702,1.0000000016475354,0.9999997749272515,1.000000255908664,True,True

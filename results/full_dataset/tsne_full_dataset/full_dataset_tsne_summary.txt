@@ -1,0 +1,6 @@
+FULL DATASET t-SNE SUMMARY
+============================================================
+
+     model  records  dimensions  pca_components_before_tsne  pca_explained_variance_sum  tsne_components  perplexity
+AraBERT_v2    41202         768                          50                    0.720524                2          30
+   MARBERT    41202         768                          50                    0.675856                2          30

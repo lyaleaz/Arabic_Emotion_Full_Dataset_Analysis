@@ -1,0 +1,21 @@
+ARABERT V2 FIRST 3,600 EMBEDDINGS RE-CHECK
+====================================================================
+Rows checked: 3600
+Original shape: (41202, 768)
+Re-check shape: (3600, 768)
+Exact array equality: True
+Allclose atol=1e-5, rtol=1e-5: True
+Allclose atol=1e-4, rtol=1e-4: True
+Maximum absolute difference: 0
+Mean absolute difference: 0
+RMSE: 0
+Minimum row cosine similarity: 1
+Mean row cosine similarity: 1
+Maximum row cosine similarity: 1.00000011921
+Original mean norm: 1
+Re-check mean norm: 1
+
+IMPORTANT: This is a numerical reproducibility check using the
+current preprocessing pipeline. It cannot by itself prove which
+historical code version generated the original vectors.
+Original embedding file was opened read-only and not modified.

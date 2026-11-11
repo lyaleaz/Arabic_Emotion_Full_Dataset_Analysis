@@ -1,0 +1,8 @@
+PCA FULL DATASET — METHOD
+Every record was used in PCA fitting AND projection; no sampling.
+PCA is fit separately per model on mean-centered 768-D embeddings.
+Centered 768x768 scatter matrix built in float64 batches; eigendecomposition yields exact principal components up to floating-point error.
+Input embeddings and metadata are read only.
+Scatter plots contain all 41,202 points per model; overlapping points and transparency can visually hide observations.
+PCA axes are model-specific; positions and directions are not directly aligned between the two subplots.
+PCA is unsupervised and does not establish classification accuracy.

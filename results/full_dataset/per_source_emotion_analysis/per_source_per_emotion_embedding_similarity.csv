@@ -1,0 +1,173 @@
+﻿model,source_dataset,emotion,records,mean_within_emotion_pairwise_cosine,within_emotion_pair_count
+AraBERT_v2,AETD (2017),anger,1444,0.64954327,1041846
+AraBERT_v2,AETD (2017),fear,1207,0.64562711,727821
+AraBERT_v2,AETD (2017),joy,1281,0.57589388,819840
+AraBERT_v2,AETD (2017),sadness,1256,0.62118606,788140
+AraBERT_v2,AETD (2017),surprise,1045,0.61380772,545490
+AraBERT_v2,ArPanEmo (2023) - test,anger,35,0.67181899,595
+AraBERT_v2,ArPanEmo (2023) - test,anticipation,5,0.54212624,10
+AraBERT_v2,ArPanEmo (2023) - test,disgust,9,0.68876397,36
+AraBERT_v2,ArPanEmo (2023) - test,fear,36,0.58218907,630
+AraBERT_v2,ArPanEmo (2023) - test,joy,23,0.62989646,253
+AraBERT_v2,ArPanEmo (2023) - test,sadness,20,0.62860115,190
+AraBERT_v2,ArPanEmo (2023) - test,surprise,3,0.73918304,3
+AraBERT_v2,ArPanEmo (2023) - train,anger,145,0.67034193,10440
+AraBERT_v2,ArPanEmo (2023) - train,anticipation,170,0.60168554,14365
+AraBERT_v2,ArPanEmo (2023) - train,disgust,118,0.64155496,6903
+AraBERT_v2,ArPanEmo (2023) - train,fear,129,0.61903096,8256
+AraBERT_v2,ArPanEmo (2023) - train,joy,188,0.59811871,17578
+AraBERT_v2,ArPanEmo (2023) - train,sadness,144,0.64604214,10296
+AraBERT_v2,ArPanEmo (2023) - train,surprise,99,0.58838582,4851
+AraBERT_v2,Arabic Restaurant Reviews (Toqa Mohamed),anger,92,0.82709113,4186
+AraBERT_v2,Arabic Restaurant Reviews (Toqa Mohamed),disgust,9,0.72150747,36
+AraBERT_v2,Arabic Restaurant Reviews (Toqa Mohamed),joy,397,0.75363530,78606
+AraBERT_v2,Arabic Restaurant Reviews (Toqa Mohamed),sadness,299,0.81903853,44551
+AraBERT_v2,Arabic Restaurant Reviews (Toqa Mohamed),surprise,1,,0
+AraBERT_v2,Arabic-Poem-Emotion (2023),joy,1943,0.84896228,1886653
+AraBERT_v2,Arabic-Poem-Emotion (2023),sadness,4063,0.84652088,8251953
+AraBERT_v2,BRIGHTER (2025) - arq - dev,anger,12,0.75868778,66
+AraBERT_v2,BRIGHTER (2025) - arq - dev,fear,6,0.79022866,15
+AraBERT_v2,BRIGHTER (2025) - arq - dev,joy,16,0.79106930,120
+AraBERT_v2,BRIGHTER (2025) - arq - dev,sadness,14,0.74944289,91
+AraBERT_v2,BRIGHTER (2025) - arq - dev,surprise,16,0.66359983,120
+AraBERT_v2,BRIGHTER (2025) - arq - test,anger,80,0.73838548,3160
+AraBERT_v2,BRIGHTER (2025) - arq - test,disgust,24,0.75741382,276
+AraBERT_v2,BRIGHTER (2025) - arq - test,fear,36,0.75937993,630
+AraBERT_v2,BRIGHTER (2025) - arq - test,joy,152,0.75085258,11476
+AraBERT_v2,BRIGHTER (2025) - arq - test,sadness,200,0.75869027,19900
+AraBERT_v2,BRIGHTER (2025) - arq - test,surprise,130,0.71167244,8385
+AraBERT_v2,BRIGHTER (2025) - arq - train,anger,38,0.70965591,703
+AraBERT_v2,BRIGHTER (2025) - arq - train,disgust,4,0.73125526,6
+AraBERT_v2,BRIGHTER (2025) - arq - train,fear,17,0.70376585,136
+AraBERT_v2,BRIGHTER (2025) - arq - train,joy,62,0.75332609,1891
+AraBERT_v2,BRIGHTER (2025) - arq - train,sadness,117,0.74638516,6786
+AraBERT_v2,BRIGHTER (2025) - arq - train,surprise,56,0.73613199,1540
+AraBERT_v2,BRIGHTER (2025) - ary - dev,anger,96,0.65290169,4560
+AraBERT_v2,BRIGHTER (2025) - ary - dev,disgust,6,0.71273980,15
+AraBERT_v2,BRIGHTER (2025) - ary - dev,fear,18,0.73387794,153
+AraBERT_v2,BRIGHTER (2025) - ary - dev,joy,96,0.59898033,4560
+AraBERT_v2,BRIGHTER (2025) - ary - dev,sadness,48,0.60514552,1128
+AraBERT_v2,BRIGHTER (2025) - ary - dev,surprise,60,0.64704067,1770
+AraBERT_v2,BRIGHTER (2025) - ary - test,anger,290,0.64601683,41905
+AraBERT_v2,BRIGHTER (2025) - ary - test,disgust,16,0.71614805,120
+AraBERT_v2,BRIGHTER (2025) - ary - test,fear,56,0.69485090,1540
+AraBERT_v2,BRIGHTER (2025) - ary - test,joy,290,0.58709652,41905
+AraBERT_v2,BRIGHTER (2025) - ary - test,sadness,142,0.64674606,10011
+AraBERT_v2,BRIGHTER (2025) - ary - test,surprise,182,0.67648184,16471
+AraBERT_v2,BRIGHTER (2025) - ary - train,anger,290,0.65724413,41905
+AraBERT_v2,BRIGHTER (2025) - ary - train,disgust,16,0.63293513,120
+AraBERT_v2,BRIGHTER (2025) - ary - train,fear,56,0.66065086,1540
+AraBERT_v2,BRIGHTER (2025) - ary - train,joy,290,0.58311569,41905
+AraBERT_v2,BRIGHTER (2025) - ary - train,sadness,142,0.62178488,10011
+AraBERT_v2,BRIGHTER (2025) - ary - train,surprise,182,0.66426665,16471
+AraBERT_v2,EmoHopeSpeech (2025),anger,1635,0.65204966,1335795
+AraBERT_v2,EmoHopeSpeech (2025),anticipation,161,0.69746870,12880
+AraBERT_v2,EmoHopeSpeech (2025),disgust,6785,0.68905459,23014720
+AraBERT_v2,EmoHopeSpeech (2025),fear,1737,0.62028365,1507716
+AraBERT_v2,EmoHopeSpeech (2025),joy,2229,0.60072425,2483106
+AraBERT_v2,EmoHopeSpeech (2025),sadness,2929,0.67334878,4288056
+AraBERT_v2,EmoHopeSpeech (2025),surprise,1355,0.61851885,917335
+AraBERT_v2,EmoHopeSpeech (2025),trust,252,0.70930173,31626
+AraBERT_v2,ExaAEC (2021),anger,191,0.63052849,18145
+AraBERT_v2,ExaAEC (2021),anticipation,866,0.63934342,374545
+AraBERT_v2,ExaAEC (2021),disgust,1176,0.63525366,690900
+AraBERT_v2,ExaAEC (2021),fear,195,0.62074479,18915
+AraBERT_v2,ExaAEC (2021),joy,472,0.63589638,111156
+AraBERT_v2,ExaAEC (2021),sadness,1909,0.62523795,1821186
+AraBERT_v2,ExaAEC (2021),surprise,795,0.62124953,315615
+AraBERT_v2,Iraqi E-Learning Emotion Dataset,anger,192,0.66692680,18336
+AraBERT_v2,Iraqi E-Learning Emotion Dataset,anticipation,189,0.68012894,17766
+AraBERT_v2,Iraqi E-Learning Emotion Dataset,joy,220,0.65864642,24090
+AraBERT_v2,Iraqi E-Learning Emotion Dataset,trust,200,0.67706706,19900
+AraBERT_v2,SenWave (2020),sadness,281,0.64968567,39340
+AraBERT_v2,Twifil (2020),anger,6,0.67948321,15
+AraBERT_v2,Twifil (2020),disgust,1,,0
+AraBERT_v2,Twifil (2020),fear,1,,0
+AraBERT_v2,Twifil (2020),joy,6,0.66588295,15
+AraBERT_v2,Twifil (2020),surprise,2,0.56640796,1
+MARBERT,AETD (2017),anger,1444,0.99119034,1041846
+MARBERT,AETD (2017),fear,1207,0.98694989,727821
+MARBERT,AETD (2017),joy,1281,0.98514299,819840
+MARBERT,AETD (2017),sadness,1256,0.98608909,788140
+MARBERT,AETD (2017),surprise,1045,0.98884260,545490
+MARBERT,ArPanEmo (2023) - test,anger,35,0.98735228,595
+MARBERT,ArPanEmo (2023) - test,anticipation,5,0.99131046,10
+MARBERT,ArPanEmo (2023) - test,disgust,9,0.99036244,36
+MARBERT,ArPanEmo (2023) - test,fear,36,0.99001149,630
+MARBERT,ArPanEmo (2023) - test,joy,23,0.98759623,253
+MARBERT,ArPanEmo (2023) - test,sadness,20,0.98739112,190
+MARBERT,ArPanEmo (2023) - test,surprise,3,0.99080443,3
+MARBERT,ArPanEmo (2023) - train,anger,145,0.99028399,10440
+MARBERT,ArPanEmo (2023) - train,anticipation,170,0.98961302,14365
+MARBERT,ArPanEmo (2023) - train,disgust,118,0.98954296,6903
+MARBERT,ArPanEmo (2023) - train,fear,129,0.98942270,8256
+MARBERT,ArPanEmo (2023) - train,joy,188,0.98648659,17578
+MARBERT,ArPanEmo (2023) - train,sadness,144,0.98877543,10296
+MARBERT,ArPanEmo (2023) - train,surprise,99,0.99010101,4851
+MARBERT,Arabic Restaurant Reviews (Toqa Mohamed),anger,92,0.99640675,4186
+MARBERT,Arabic Restaurant Reviews (Toqa Mohamed),disgust,9,0.99179967,36
+MARBERT,Arabic Restaurant Reviews (Toqa Mohamed),joy,397,0.99518564,78606
+MARBERT,Arabic Restaurant Reviews (Toqa Mohamed),sadness,299,0.99543652,44551
+MARBERT,Arabic Restaurant Reviews (Toqa Mohamed),surprise,1,,0
+MARBERT,Arabic-Poem-Emotion (2023),joy,1943,0.99590338,1886653
+MARBERT,Arabic-Poem-Emotion (2023),sadness,4063,0.99553988,8251953
+MARBERT,BRIGHTER (2025) - arq - dev,anger,12,0.99628033,66
+MARBERT,BRIGHTER (2025) - arq - dev,fear,6,0.99626169,15
+MARBERT,BRIGHTER (2025) - arq - dev,joy,16,0.99654631,120
+MARBERT,BRIGHTER (2025) - arq - dev,sadness,14,0.99553088,91
+MARBERT,BRIGHTER (2025) - arq - dev,surprise,16,0.99388117,120
+MARBERT,BRIGHTER (2025) - arq - test,anger,80,0.99464936,3160
+MARBERT,BRIGHTER (2025) - arq - test,disgust,24,0.99647322,276
+MARBERT,BRIGHTER (2025) - arq - test,fear,36,0.99572692,630
+MARBERT,BRIGHTER (2025) - arq - test,joy,152,0.99492265,11476
+MARBERT,BRIGHTER (2025) - arq - test,sadness,200,0.99467812,19900
+MARBERT,BRIGHTER (2025) - arq - test,surprise,130,0.99329653,8385
+MARBERT,BRIGHTER (2025) - arq - train,anger,38,0.99401927,703
+MARBERT,BRIGHTER (2025) - arq - train,disgust,4,0.99636381,6
+MARBERT,BRIGHTER (2025) - arq - train,fear,17,0.99505274,136
+MARBERT,BRIGHTER (2025) - arq - train,joy,62,0.99541619,1891
+MARBERT,BRIGHTER (2025) - arq - train,sadness,117,0.99462204,6786
+MARBERT,BRIGHTER (2025) - arq - train,surprise,56,0.99423347,1540
+MARBERT,BRIGHTER (2025) - ary - dev,anger,96,0.99238534,4560
+MARBERT,BRIGHTER (2025) - ary - dev,disgust,6,0.99110582,15
+MARBERT,BRIGHTER (2025) - ary - dev,fear,18,0.99397935,153
+MARBERT,BRIGHTER (2025) - ary - dev,joy,96,0.99047338,4560
+MARBERT,BRIGHTER (2025) - ary - dev,sadness,48,0.99105056,1128
+MARBERT,BRIGHTER (2025) - ary - dev,surprise,60,0.99332464,1770
+MARBERT,BRIGHTER (2025) - ary - test,anger,290,0.99141587,41905
+MARBERT,BRIGHTER (2025) - ary - test,disgust,16,0.99422747,120
+MARBERT,BRIGHTER (2025) - ary - test,fear,56,0.99366166,1540
+MARBERT,BRIGHTER (2025) - ary - test,joy,290,0.98838105,41905
+MARBERT,BRIGHTER (2025) - ary - test,sadness,142,0.99173499,10011
+MARBERT,BRIGHTER (2025) - ary - test,surprise,182,0.99370984,16471
+MARBERT,BRIGHTER (2025) - ary - train,anger,290,0.99151409,41905
+MARBERT,BRIGHTER (2025) - ary - train,disgust,16,0.99115430,120
+MARBERT,BRIGHTER (2025) - ary - train,fear,56,0.99408187,1540
+MARBERT,BRIGHTER (2025) - ary - train,joy,290,0.98857100,41905
+MARBERT,BRIGHTER (2025) - ary - train,sadness,142,0.99062869,10011
+MARBERT,BRIGHTER (2025) - ary - train,surprise,182,0.99336919,16471
+MARBERT,EmoHopeSpeech (2025),anger,1635,0.99120174,1335795
+MARBERT,EmoHopeSpeech (2025),anticipation,161,0.99391701,12880
+MARBERT,EmoHopeSpeech (2025),disgust,6785,0.99362170,23014720
+MARBERT,EmoHopeSpeech (2025),fear,1737,0.98714855,1507716
+MARBERT,EmoHopeSpeech (2025),joy,2229,0.98644408,2483106
+MARBERT,EmoHopeSpeech (2025),sadness,2929,0.98886192,4288056
+MARBERT,EmoHopeSpeech (2025),surprise,1355,0.98919247,917335
+MARBERT,EmoHopeSpeech (2025),trust,252,0.99427802,31626
+MARBERT,ExaAEC (2021),anger,191,0.98904187,18145
+MARBERT,ExaAEC (2021),anticipation,866,0.98365167,374545
+MARBERT,ExaAEC (2021),disgust,1176,0.98818550,690900
+MARBERT,ExaAEC (2021),fear,195,0.98707709,18915
+MARBERT,ExaAEC (2021),joy,472,0.98977562,111156
+MARBERT,ExaAEC (2021),sadness,1909,0.98665110,1821186
+MARBERT,ExaAEC (2021),surprise,795,0.98946551,315615
+MARBERT,Iraqi E-Learning Emotion Dataset,anger,192,0.99194485,18336
+MARBERT,Iraqi E-Learning Emotion Dataset,anticipation,189,0.99284825,17766
+MARBERT,Iraqi E-Learning Emotion Dataset,joy,220,0.98886915,24090
+MARBERT,Iraqi E-Learning Emotion Dataset,trust,200,0.99150855,19900
+MARBERT,SenWave (2020),sadness,281,0.99157072,39340
+MARBERT,Twifil (2020),anger,6,0.99425414,15
+MARBERT,Twifil (2020),disgust,1,,0
+MARBERT,Twifil (2020),fear,1,,0
+MARBERT,Twifil (2020),joy,6,0.99323773,15
+MARBERT,Twifil (2020),surprise,2,0.99127226,1

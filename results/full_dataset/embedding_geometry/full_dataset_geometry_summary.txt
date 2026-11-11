@@ -1,0 +1,16 @@
+FULL DATASET EMBEDDING GEOMETRY ANALYSIS
+====================================================================
+
+Records per model: 41,202
+Embedding dimensions: 768
+Batch size: 2,048
+
+     model  records  dimensions  mean_vector_norm  mean_pairwise_cosine  effective_rank  effective_rank_ratio  first_component_variance  top_5_components_variance  top_10_components_variance  mean_individual_norm  minimum_individual_norm  maximum_individual_norm  all_values_finite  all_vectors_l2_normalized
+AraBERT_v2    41202         768          0.787794              0.620610       90.923647               0.11839                  0.165218                   0.370536                    0.476901                   1.0                      1.0                      1.0               True                       True
+   MARBERT    41202         768          0.994312              0.988656       71.685084               0.09334                  0.311913                   0.468366                    0.527414                   1.0                      1.0                      1.0               True                       True
+
+Methodological notes:
+- Mean pairwise cosine is computed exactly over all unordered pairs using the unit-vector identity; no N x N matrix is created.
+- Effective rank and component variance are computed from eigenvalues of the centered feature covariance/scatter matrix.
+- The covariance/scatter matrix is accumulated in batches.
+- These results describe embedding geometry; they do not alone establish emotion-class separability or model superiority.
