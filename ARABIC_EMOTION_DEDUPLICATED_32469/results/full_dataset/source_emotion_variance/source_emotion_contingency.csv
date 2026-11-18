@@ -1,0 +1,17 @@
+﻿source_dataset,anger,anticipation,disgust,fear,joy,sadness,surprise,trust
+AETD (2017),1440,0,0,1204,1280,1255,1044,0
+ArPanEmo (2023) - test,35,5,9,36,23,20,3,0
+ArPanEmo (2023) - train,145,170,118,129,188,144,99,0
+Arabic Restaurant Reviews (Toqa Mohamed),92,0,9,0,397,299,1,0
+Arabic-Poem-Emotion (2023),0,0,0,0,1190,2628,0,0
+BRIGHTER (2025) - arq - dev,6,0,0,3,8,7,8,0
+BRIGHTER (2025) - arq - test,40,0,12,18,76,100,65,0
+BRIGHTER (2025) - arq - train,38,0,4,17,62,116,56,0
+BRIGHTER (2025) - ary - dev,48,0,3,9,48,24,30,0
+BRIGHTER (2025) - ary - test,145,0,8,28,145,71,91,0
+BRIGHTER (2025) - ary - train,290,0,16,56,290,142,182,0
+EmoHopeSpeech (2025),716,157,6281,546,1215,2019,372,242
+ExaAEC (2021),191,866,1176,195,472,1906,793,0
+Iraqi E-Learning Emotion Dataset,192,189,0,0,220,0,0,200
+SenWave (2020),0,0,0,0,0,280,0,0
+Twifil (2020),6,0,1,1,6,0,2,0

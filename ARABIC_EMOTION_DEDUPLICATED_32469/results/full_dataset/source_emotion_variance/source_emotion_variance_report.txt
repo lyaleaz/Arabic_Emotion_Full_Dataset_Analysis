@@ -1,0 +1,19 @@
+SOURCE DATASET VS EMOTION — FULL DATASET VARIANCE ANALYSIS
+========================================================================
+Records: 32,469
+Embedding dimensions: 768
+Source datasets: 16
+Emotion classes: 8
+Sampling: none; all records included
+
+     model  records  dimensions  total_centered_sum_squares  emotion_only_R2  source_only_R2  additive_source_plus_emotion_R2  source_unique_partial_R2_given_emotion  emotion_unique_partial_R2_given_source  additional_source_emotion_interaction_R2  cell_means_model_R2  observed_source_emotion_cells
+AraBERT_v2    32469         768                12186.466323         0.053988        0.114824                         0.142336                                0.093390                                0.031081                                  0.023089             0.165425                             86
+   MARBERT    32469         768                  360.452023         0.054563        0.156554                         0.180152                                0.132836                                0.027978                                  0.020122             0.200274                             86
+
+Interpretation notes:
+- R2 values are multivariate trace-based proportions of total centered variation across all 768 dimensions.
+- source_unique_partial_R2_given_emotion measures the additional proportion of residual variation explained by source after emotion is included.
+- emotion_unique_partial_R2_given_source measures the additional proportion of residual variation explained by emotion after source is included.
+- The interaction model uses observed source-emotion cells and captures non-additive cell-specific structure.
+- These are descriptive associations, not causal effects or classification accuracy.
+- Unbalanced source/emotion counts affect precision and interpretation; inspect source-emotion counts.
